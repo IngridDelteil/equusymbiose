@@ -15,6 +15,7 @@ const themeOptions = createTheme({
       secondary: "#d7cec7",
     },
     background: {
+      main: "#d7cec7",
       default: "#d7cec7",
     },
     error: {
