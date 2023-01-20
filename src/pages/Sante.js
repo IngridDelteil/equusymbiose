@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Sante = () => {
-  return <div>Santé</div>;
+  return <MainContainer>Santé</MainContainer>;
 };
 
 export default Sante;

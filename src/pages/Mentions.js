@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Mentions = () => {
-  return <div>Mentions</div>;
+  return <MainContainer>Mentions</MainContainer>;
 };
 
 export default Mentions;

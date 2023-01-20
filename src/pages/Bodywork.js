@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Bodywork = () => {
-  return <div>Bodywork</div>;
+  return <MainContainer>Bodywork</MainContainer>;
 };
 
 export default Bodywork;

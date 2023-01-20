@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Massage = () => {
-  return <div>Massage</div>;
+  return <MainContainer>Massage</MainContainer>;
 };
 
 export default Massage;

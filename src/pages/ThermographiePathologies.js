@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const ThermographiePathologies = () => {
-  return <div>Thermographie pathologies</div>;
+  return <MainContainer>Thermographie pathologies</MainContainer>;
 };
 
 export default ThermographiePathologies;

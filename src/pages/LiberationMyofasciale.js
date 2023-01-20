@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const LiberationMyofasciale = () => {
-  return <div>Libération Myofasciale</div>;
+  return <MainContainer>Libération Myofasciale</MainContainer>;
 };
 
 export default LiberationMyofasciale;
