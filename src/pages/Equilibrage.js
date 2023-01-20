@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Equilibrage = () => {
-  return <div>Equilibrage</div>;
+  return <MainContainer>Equilibrage</MainContainer>;
 };
 
 export default Equilibrage;

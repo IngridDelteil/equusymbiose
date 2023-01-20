@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Parcours = () => {
-  return <div>Parcours</div>;
+  return <MainContainer>Parcours</MainContainer>;
 };
 
 export default Parcours;

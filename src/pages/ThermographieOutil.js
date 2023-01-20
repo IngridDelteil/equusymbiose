@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const ThermographieOutil = () => {
-  return <div>Thermographie Outil</div>;
+  return <MainContainer>Thermographie Outil</MainContainer>;
 };
 
 export default ThermographieOutil;

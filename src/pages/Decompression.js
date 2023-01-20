@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Decompression = () => {
-  return <div>Décompression</div>;
+  return <MainContainer>Décompression</MainContainer>;
 };
 
 export default Decompression;

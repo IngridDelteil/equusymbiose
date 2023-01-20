@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const AmpliVet = () => {
-  return <div>AmpliVet</div>;
+  return <MainContainer>AmpliVet</MainContainer>;
 };
 
 export default AmpliVet;

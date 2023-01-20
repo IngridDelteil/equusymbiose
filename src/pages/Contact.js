@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Contact = () => {
-  return <div>Contact</div>;
+  return <MainContainer>Contact</MainContainer>;
 };
 
 export default Contact;

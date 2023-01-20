@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const LectureDuVivant = () => {
-  return <div>Lecture du Vivant</div>;
+  return <MainContainer>Lecture du Vivant</MainContainer>;
 };
 
 export default LectureDuVivant;

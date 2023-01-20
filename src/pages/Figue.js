@@ -1,5 +1,7 @@
+import MainContainer from "../components/MainContainer";
+
 const Figue = () => {
-  return <div>Figue</div>;
+  return <MainContainer>Figue</MainContainer>;
 };
 
 export default Figue;
