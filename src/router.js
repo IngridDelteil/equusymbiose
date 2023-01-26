@@ -7,6 +7,7 @@ import Contact from "./pages/Contact";
 import Decompression from "./pages/Decompression";
 import Equilibrage from "./pages/Equilibrage";
 import Figue from "./pages/Figue";
+import FigueMedias from "./pages/FigueMedias";
 import Home from "./pages/Home";
 import LectureDuVivant from "./pages/LectureDuVivant";
 import LiberationMyofasciale from "./pages/LiberationMyofasciale";
@@ -14,6 +15,7 @@ import Massage from "./pages/Massage";
 import Mentions from "./pages/Mentions";
 import Parcours from "./pages/Parcours";
 import Sante from "./pages/Sante";
+import Bioresonance from "./pages/Bioresonance";
 import ThermographieOutil from "./pages/ThermographieOutil";
 import ThermographiePathologies from "./pages/ThermographiePathologies";
 
@@ -27,7 +29,7 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "amplivet",
+        path: "electrotherapie",
         element: <AmpliVet />,
       },
       {
@@ -49,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: "figue",
         element: <Figue />,
+      },
+      {
+        path: "figuemedias",
+        element: <FigueMedias />,
       },
       {
         path: "lecture",
@@ -73,6 +79,10 @@ const router = createBrowserRouter([
       {
         path: "sante",
         element: <Sante />,
+      },
+      {
+        path: "bioresonance",
+        element: <Bioresonance />,
       },
       {
         path: "thermographieoutil",
