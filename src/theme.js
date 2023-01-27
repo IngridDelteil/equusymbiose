@@ -34,7 +34,7 @@ const themeOptions = createTheme({
       main: "#626e60",
       contrastText: "#d7cec7",
     },
-    divider: "#626e60",
+    divider: "#5a4840",
   },
   typography: {
     fontFamily: "Montserrat",
