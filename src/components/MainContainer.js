@@ -7,7 +7,7 @@ const MainContainer = ({children}) => {
       component='main'
       sx={{
         minHeight: "100vh",
-        pt: "10rem",
+        pt: {xs: "8rem", md: "10rem"},
         pb: "4rem",
         border: 1,
         borderColor: "warning.main",
