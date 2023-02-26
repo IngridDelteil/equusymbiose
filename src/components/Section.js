@@ -6,8 +6,15 @@ const Section = ({
   order = "row",
   picture = null,
   pictureAlt = "",
+  pictureBorder = true,
 }) => {
   const theme = useTheme();
+  const borderDetails = {
+    border: 2,
+    borderStyle: "solid",
+    borderColor: theme.palette.error.main,
+    boxSizing: "border-box",
+  };
   return (
     <Grid container direction={order} alignItems='center' sx={{marginY: 4}}>
       {picture !== null ? (
@@ -16,12 +23,7 @@ const Section = ({
             src={picture}
             alt={pictureAlt}
             width='100%'
-            style={{
-              border: 2,
-              borderStyle: "solid",
-              borderColor: theme.palette.error.main,
-              boxSizing: "border-box",
-            }}
+            style={pictureBorder ? borderDetails : null}
           />
         </Grid>
       ) : null}

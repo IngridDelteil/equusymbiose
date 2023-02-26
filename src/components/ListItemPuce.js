@@ -4,7 +4,7 @@ import FilterVintageIcon from "@mui/icons-material/FilterVintage";
 
 const ListItemPuce = ({children}) => {
   return (
-    <ListItem disablePadding>
+    <ListItem disablePadding alignItems='flex-start'>
       <ListItemIcon>
         <FilterVintageIcon fontSize='small' color='error' sx={{fontSize: 14}} />
       </ListItemIcon>
