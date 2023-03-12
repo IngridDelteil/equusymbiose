@@ -1,4 +1,4 @@
-import {Grid} from "@mui/material";
+import {Grid, Stack, Typography} from "@mui/material";
 import {useTheme} from "@mui/material/styles";
 
 const Section = ({
@@ -7,6 +7,7 @@ const Section = ({
   picture = null,
   pictureAlt = "",
   pictureBorder = true,
+  pictureCaption = "",
 }) => {
   const theme = useTheme();
   const borderDetails = {
@@ -19,12 +20,23 @@ const Section = ({
     <Grid container direction={order} alignItems='center' sx={{marginY: 4}}>
       {picture !== null ? (
         <Grid item xs={12} md={6} lg={5}>
-          <img
-            src={picture}
-            alt={pictureAlt}
-            width='100%'
-            style={pictureBorder ? borderDetails : null}
-          />
+          <Stack>
+            <img
+              src={picture}
+              alt={pictureAlt}
+              width='100%'
+              style={pictureBorder ? borderDetails : null}
+            />
+            {pictureCaption !== "" ? (
+              <Typography
+                component='caption'
+                variant='caption'
+                dangerouslySetInnerHTML={{
+                  __html: pictureCaption,
+                }}
+              />
+            ) : null}
+          </Stack>
         </Grid>
       ) : null}
       <Grid

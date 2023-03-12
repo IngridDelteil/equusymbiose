@@ -75,11 +75,11 @@ export const menuEQS = [
         link: "/equilibrage",
       },
       {
-        label: "AmpliVet®",
+        label: "AmpliVet<sup>®</sup>",
         link: "/electrotherapie",
       },
       {
-        label: "Lecture du Vivant©",
+        label: "Lecture du Vivant<sup>©</sup>",
         link: "/lecture",
       },
     ],

@@ -1,5 +1,4 @@
-import {Stack} from "@mui/material";
-import Paragraph from "./Paragraph";
+import {Stack, Typography} from "@mui/material";
 import {useTheme} from "@mui/material/styles";
 
 const PictureWithCaption = ({picture, pictureAlt, children}) => {
@@ -17,9 +16,9 @@ const PictureWithCaption = ({picture, pictureAlt, children}) => {
           boxSizing: "border-box",
         }}
       />
-      <Paragraph alignment='center' fontStyle='italic' color='error.main'>
+      <Typography component='caption' variant='caption' color='error.main'>
         {children}
-      </Paragraph>
+      </Typography>
     </Stack>
   );
 };

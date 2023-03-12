@@ -82,9 +82,8 @@ const SubMenu = ({open, name, handleClose}) => {
                         "&:hover": {color: "error.main"},
                       }}
                       onClick={navigateTo(submenuElement.link)}
-                    >
-                      {submenuElement.label}
-                    </Link>
+                      dangerouslySetInnerHTML={{__html: submenuElement.label}}
+                    />
                   </Box>
                 );
               })}
@@ -136,9 +135,10 @@ const SubMenu = ({open, name, handleClose}) => {
                             "&:hover": {color: "error.main"},
                           }}
                           onClick={navigateTo(submenuElement.link)}
-                        >
-                          {submenuElement.label}
-                        </Link>
+                          dangerouslySetInnerHTML={{
+                            __html: submenuElement.label,
+                          }}
+                        />
                       );
                     })}
                   </Stack>
